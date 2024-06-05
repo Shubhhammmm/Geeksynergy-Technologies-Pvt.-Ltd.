@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+.invalid-input {
+  color: red;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.active{
+  background-color: rgb(17, 151, 17);
+  padding: .4rem .6rem ;
+  border-radius: .3rem;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+}
